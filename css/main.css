@@ -232,7 +232,7 @@ a:hover {
 }
 
 
-/*Header_Block */
+/*---------------------------------------------- Header_Block ---------------------------------------------- */
 .Header_Block {
   display: flex;
   height: 120px;
@@ -295,7 +295,7 @@ a:hover {
 }
 
 
-/*Footer_Block */
+/*----------------------------------------------  Footer_Block ---------------------------------------------- */
 .Bottom_Block {
   display: flex;
   height: 300px;
@@ -346,3 +346,119 @@ a:hover {
 
 }
 
+/*----------------------------------------------  Main ---------------------------------------------- */
+/*----------------------------------------------  Main_Block 1 ---------------------------------------------- */
+
+.Main_Block {
+  display: flex;
+  flex-direction: column;
+  height: 574px;
+}
+
+.Main_Block .Main_Block_Company {
+  display: flex;
+  height: 351px;
+}
+
+.Main_Block .Main_Block_Description {
+  display: flex;
+  height: 223px;
+}
+
+.Main_Block .Main_Block_Company .Main_Block_Company_img {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Main_Block .Main_Block_Company .Main_Block_Company_pic {
+  display: block;
+  width: 100%;
+  background: url("../img/pexels-aleksey-kuprikov-3493777.png") center/cover;
+  height: 100%;
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1;
+}
+
+.Main_Block .Main_Block_Company .Main_Block_Company_img h1 {
+  color: #68092D;
+  font-size: 70px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.Main_Block .Main_Block_Company .Main_Block_Company_img p {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+.Main_Block .Main_Block_Company .Main_Block_Company_text {
+  display: flex;
+
+  width: 50%;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.Main_Block .Main_Block_Company .Main_Block_Company_text h2 {
+  color: #68092D;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+.Main_Block .Main_Block_Company .Main_Block_Company_text p {
+  color: #68092D;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+  align-self: center;
+  margin: 10px 50px 60px;
+
+}
+
+.Main_Block .Main_Block_Company .Main_Block_Company_text span {
+  border-bottom: 2px solid #5F5A5A;
+  display: block;
+  text-align: center;
+  width: 75%;
+  align-self: center;
+  align-items: flex-end;
+
+}
+
+.Main_Block_Description {
+  display: flex;
+  flex-direction: column;
+}
+
+.Main_Block_Description h2 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  color: #68092D;
+}
+
+.Main_Block_Description p {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 50%;
+}
+
+/*----------------------------------------------  Projects_Block 2 ---------------------------------------------- */
