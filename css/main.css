@@ -1018,3 +1018,82 @@ a:hover {
   display: block;
   background: url("../img/This-Renewable-Energy-Stock-Sees-High-Powered-Dividend-Growth-Ahead-The-Motley-Fool-3.png") center/cover;
 }
+
+/*----------------------------------------------  Chart_one_page_Block 9 ---------------------------------------------- */
+
+.Chart_one_page_Block {
+  background: #FFFFFF;
+  height: 331px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+
+.Chart_one_page_Block .Chart_one_page_Block_container {
+
+  display: block;
+  width: 100%;
+  height: 331px;
+  background: url("../img/05b09cc43cd816d4020c509c9961d98c_original_1.png") center/cover;
+}
+
+.Chart_one_page_Block .Chart_one_page_Block_container .Chart_one_page_Block_container_text {
+  background: #68092DCC;
+  width: 851px;
+  height: 100%;
+
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+.Chart_one_page_Block .Chart_one_page_Block_container .Chart_one_page_Block_container_text span {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  padding: 60px;
+  display: block;
+}
+
+
+/*----------------------------------------------  Chart_two_page_Block 10 ---------------------------------------------- */
+
+
+.Chart_two_page_Block {
+  background: #FFFFFF;
+  height: 331px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+
+.Chart_two_page_Block .Chart_two_page_Block_container {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 331px;
+  background: url("../img/Depositphotos_342751076_l-2015-1.png") center/cover;
+}
+
+.Chart_two_page_Block .Chart_two_page_Block_container .Chart_two_page_Block_container_text {
+  background: #68092DCC;
+  width: 851px;
+  height: 100%;
+  position: relative;
+  display: block;
+  top: 0;
+  left: 38%;
+}
+
+.Chart_two_page_Block .Chart_two_page_Block_container .Chart_two_page_Block_container_text span {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  padding: 60px;
+  display: block;
+}
