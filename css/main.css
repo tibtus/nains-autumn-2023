@@ -572,8 +572,96 @@ a:hover {
   background: url("../img/projects_img_3.png") center/cover;
 }
 
+/*----------------------------------------------  Technology_development_Block 3 ---------------------------------------------- */
+
+.Technology_development_Block {
+  background: #EDEDED;
+  height: 600px;
+}
+
+.Technology_development_Block h2 {
+  color: #68092D;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 53px;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+
+.Technology_development_Block .Technology_development_Block_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+}
+
+.Technology_development_Block .Technology_development_Block_container .Block_container_description {
+  height: 355px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+}
+
+.Technology_development_Block .Technology_development_Block_container .Block_container_Line {
+  border-bottom: 2px solid #5F5A5A;
+  border-radius: 2px;
+  height: 50px;
+}
+
+.Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_img {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+
+.Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_details {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+
+.Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_img .image-a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../img/technology_development1.png") center/cover;
+
+}
+
+.Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_details h3 {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 38px;
+  text-align: center;
+  color: #68092D;
+  text-transform: uppercase;
+}
+
+.Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_details p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+
+}
+
+.Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_details a {
+  color: #68092D;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+  text-align: center;
+  transition-duration: 1.5s;
+}
+
+.Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_details a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #FFFFFF;
+  border-radius: 2px;
+
+}
 
 
-
-
+/*----------------------------------------------  About_Invest_Block 4 ---------------------------------------------- */
 
