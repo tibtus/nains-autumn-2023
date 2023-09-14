@@ -928,5 +928,93 @@ a:hover {
   text-align: center;
 }
 
+/*----------------------------------------------  Investment_sectors_page_Block 8 ---------------------------------------------- */
 
 
+.Investment_sectors_page_Block {
+  background: #FFFFFF;
+  height: 893px;
+}
+
+.Investment_sectors_page_Block h2 {
+  color: #68092D;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.Investment_sectors_page_Block .Investment_sectors_page_Block_container {
+  display: flex;
+  height: 100%;
+}
+
+.Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image {
+  display: flex;
+  flex-direction: column;
+  height: 629px;
+  width: 380px;
+  align-self: center;
+  transition-duration: 1s;
+  background: #EDEDED;
+
+}
+
+.Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .desc {
+  height: 60%;
+  width: 100%;
+}
+
+.Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .pic {
+  background: black;
+  height: 40%;
+  width: 100%;
+}
+
+.Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .desc h3 {
+  color: #68092D;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .desc p {
+  color: #68092D;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  padding: 0 30px 30px 30px;
+}
+
+
+.Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .pic.image-a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../img/Construction-Photography-1.png") center/cover;
+}
+
+.Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .pic.image-b {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../img/Could-Snowflake-Be-a-Millionaire-Maker-Stock-The-Motley-Fool-2.png") center/cover;
+}
+
+.Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .pic.image-c {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../img/This-Renewable-Energy-Stock-Sees-High-Powered-Dividend-Growth-Ahead-The-Motley-Fool-3.png") center/cover;
+}
