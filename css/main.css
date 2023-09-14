@@ -1097,3 +1097,74 @@ a:hover {
   padding: 60px;
   display: block;
 }
+
+/*----------------------------------------------  Sustainable_Investmet 11 ---------------------------------------------- */
+
+.Sustainable_Investmet {
+  background: #EDEDED;
+  max-height: 422px;
+}
+
+.Sustainable_Investmet .Sustainable_Investmet_container {
+  border-bottom: 2px solid #5F5A5A;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Sustainable_Investmet .Sustainable_Investmet_container .Sustainable_Investmet_text {
+  margin-bottom: 60px;
+  max-width: 610px;
+}
+
+.Sustainable_Investmet .Sustainable_Investmet_container .Sustainable_Investmet_text h3 {
+  color: #68092D;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Sustainable_Investmet .Sustainable_Investmet_container .Sustainable_Investmet_text span {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+}
+
+/*----------------------------------------------  Implement_your_ideas 12 ---------------------------------------------- */
+
+.Implement_your_ideas {
+  background: #FFFFFF;
+  max-height: 600px;
+  margin: 60px 0;
+}
+
+.Implement_your_ideas .Implement_your_ideas_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Implement_your_ideas .Implement_your_ideas_container .Implement_your_ideas_text {
+  max-width: 739px;
+}
+
+.Implement_your_ideas .Implement_your_ideas_container .Implement_your_ideas_text h3 {
+  color: #68092D;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Implement_your_ideas .Implement_your_ideas_container .Implement_your_ideas_text span {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justify;
+}
