@@ -697,7 +697,7 @@ a:hover {
 
 
 .Activities_Block {
-  background: #EDEDED;
+  background: #ffffff;
   height: 800px;
 }
 
@@ -765,6 +765,7 @@ a:hover {
 .Activities_Block .Activities_Block_container .container_block .container_block_element:hover p {
   color: #FFFFFF;
   text-decoration: none;
+  transition-duration: 1s;
 }
 
 .Activities_Block .Activities_Block_container .container_block .container_block_element:hover {
@@ -777,4 +778,79 @@ a:hover {
   left: -20px;
   margin: 20px;
 }
+
+
+/*----------------------------------------------  Principles_Sustainability_Block 6 ---------------------------------------------- */
+
+.Principles_Sustainability_Block {
+  background: #ffffff;
+  height: 600px;
+}
+
+.Principles_Sustainability_Block h2 {
+  color: #68092D;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 60px;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.Principles_Sustainability_Block .Principles_Sustainability_Block_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  margin-top: 100px;
+}
+
+
+.Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element:nth-child(1),
+.Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element:nth-child(2) {
+  border-right: 2px solid #5F5A5A;
+  border-radius: 2px;
+}
+
+.Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 auto;
+  text-align: center;
+  color: #000000;
+  padding-top: 50px;
+}
+
+.Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element .image {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto;
+}
+
+.Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element .image .image-a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../img/leaf_svgrepo.png") center/cover;
+}
+
+.Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element .image .image-b {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../img/community-group-leader_svgrepo.png") center/cover;
+}
+
+.Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element .image .image-c {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../img/check_svgrepo.png") center/cover;
+}
+
 
