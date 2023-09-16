@@ -1540,3 +1540,148 @@ a:hover {
   line-height: 27px;
   text-align: justify;
 }
+
+
+/*----------------------------------------------  Logistics_desc_page_Block_ 20  ---------------------------------------------- */
+
+.Service_map_page_Block {
+  background: #FFFFFF;
+  min-height: 1700px;
+  position: relative;
+}
+
+.Service_map_page_Block h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  color: #68092D;
+  text-transform: uppercase;
+}
+
+.Service_map_page_Block .Service_map_page_Block_container {
+  display: flex;
+}
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_left {
+  width: 50%;
+  display: block;
+  position: relative;
+  background: #FFFFFF;
+}
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_right {
+  width: 50%;
+  display: block;
+  position: relative;
+  background: #FFFFFF;
+}
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_left .Service_map_page_Block_container_name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: right;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 15px 80px 20px 20px;
+}
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_right .Service_map_page_Block_container_name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 15px 20px 20px 80px;
+}
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_list {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justify;
+  color: #000000;
+  margin: 30px 0;
+}
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_left .Service_map_page_Block_container_list div {
+  display: flex;
+  justify-content: end;
+}
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_right .Service_map_page_Block_container_list div {
+  display: flex;
+  justify-content: start;
+}
+
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_list div ul {
+  list-style-type: none;
+  max-width: 520px;
+}
+
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_left .Service_map_page_Block_container_list div ul {
+  padding: 15px 80px 20px 20px;
+}
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_right .Service_map_page_Block_container_list div ul {
+  padding: 15px 20px 20px 80px;
+}
+
+/*маленькі кола*/
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_list div ul li::before {
+  content: "●";
+  color: #68092D;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px; /* Отступ между кругом и текстом */
+  font-size: 24px; /* Размер круга */
+  line-height: 1; /* Выравнивание круга по вертикали */
+}
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_right .Service_map_page_Block_container_list div ul {
+  border-left: 1px solid #000000;
+}
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_left .Service_map_page_Block_container_list div ul {
+  border-right: 1px solid #000000;
+}
+
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_right .Service_map_page_Block_container_name::before {
+  content: "●";
+  color: #68092D;
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin-right: 30px; /* Отступ между кругом и текстом */
+  font-size: 160px; /* Размер круга */
+  position: absolute;
+  left: -50px;
+  top: 3%;
+  z-index: 100;
+}
+
+/*великі кола ліва колонка*/
+.Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_left .Service_map_page_Block_container_name::before {
+  content: "●";
+  color: #68092D;
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin-right: 30px; /* Отступ между кругом и текстом */
+  font-size: 160px; /* Размер круга */
+  position: absolute;
+  right: -60px;
+  top: 3%;
+  z-index: 100;
+}
+
+.Service_map_page_Block .wrapper {
+  padding-bottom: 60px;
+  border-bottom: 2px solid #5F5A5A;
+
+}
