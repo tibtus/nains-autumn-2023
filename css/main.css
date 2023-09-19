@@ -227,6 +227,13 @@ a:hover {
   overflow: hidden;
 }
 
+.wrapper_img_block {
+  display: block;
+  max-width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 .inner_wrapper_style {
   /*margin-top: 45px;*/
 }
@@ -896,6 +903,7 @@ a:hover {
   height: 100%;
   width: 50%;
   display: block;
+  padding-left: 40px;
 }
 
 .Investment_page_Block .Investment_page_Block_wrapper .Investment_page_Block_container h2 {
@@ -1390,21 +1398,45 @@ a:hover {
   height: 161px;
   width: 288px;
   display: block;
-  background: url("../img/Vitol-Logo-1.png") center/cover;
+  background: url("../img/Vitol-Logo-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .Products_Trading_page_Block_container_list .Block_container_list.list_e {
   height: 161px;
   width: 286px;
   display: block;
-  background: url("../img/insaoil-1.png") center/cover;
+  background: url("../img/insaoil-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .Products_Trading_page_Block_container_list .Block_container_list.list_f {
   height: 161px;
   width: 254px;
   display: block;
-  background: url("../img/Grupa_Azoty_logo-1.png") center/cover;
+  background: url("../img/Grupa_Azoty_logo-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Products_Trading_page_Block_container_list .Block_container_list.list_g {
+  height: 161px;
+  width: 286px;
+  display: block;
+  background: url("../img/870219-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Products_Trading_page_Block_container_list .Block_container_list.list_h {
+  height: 161px;
+  width: 254px;
+  display: block;
+  background: url("../img/OUGDFKKYSNKC3LY1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /*----------------------------------------------  PAGE Logistics ---------------------------------------------- */
@@ -2038,7 +2070,9 @@ a:hover {
 
     .Products_Trading_page_Block_container_list .Block_container_list.list_d,
     .Products_Trading_page_Block_container_list .Block_container_list.list_e,
-    .Products_Trading_page_Block_container_list .Block_container_list.list_f {
+    .Products_Trading_page_Block_container_list .Block_container_list.list_f,
+    .Products_Trading_page_Block_container_list .Block_container_list.list_g,
+    .Products_Trading_page_Block_container_list .Block_container_list.list_h {
       margin: 10px;
       display: block;
       background-repeat: no-repeat;
