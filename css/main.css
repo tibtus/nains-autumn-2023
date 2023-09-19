@@ -250,6 +250,10 @@ a:hover {
   margin: 45px auto;
 }
 
+.Header_Block_ul_modal {
+  display: none;
+}
+
 
 .Header_Block .Header_Block_ul {
   display: flex;
@@ -308,6 +312,7 @@ a:hover {
   width: 55%;
   margin-right: 80px;
 }
+
 
 .Bottom_Block .Bottom_Block_Information {
   display: flex;
@@ -465,7 +470,7 @@ a:hover {
 
 .Projects_Block {
   background: #68092DCC;
-  height: 755px;
+  min-height: 755px;
 }
 
 .Projects_Block h2 {
@@ -698,7 +703,7 @@ a:hover {
 
 .Activities_Block {
   background: #ffffff;
-  height: 800px;
+  min-height: 800px;
 }
 
 .Activities_Block h2 {
@@ -1815,3 +1820,1121 @@ a:hover {
 
 
 /*----------------------------------------------  google_translate_element  ---------------------------------------------- */
+
+
+/*----------------------------------------------  Mobile  ---------------------------------------------- */
+
+
+@media (max-width: 1368px) {
+  .wrapper {
+    display: block;
+    width: 1170px;
+    margin: 0 auto;
+    line-height: 50px;
+  }
+
+  .Investment_page_Block .Investment_page_Block_wrapper .Investment_page_Block_container .Investment_page_Block_container_text span {
+    padding-bottom: 20px;
+  }
+
+
+  @media (max-width: 1173px) {
+
+    .wrapper {
+      display: block;
+      width: 800px;
+      margin: 0 auto;
+      line-height: 50px;
+    }
+
+    .Header_Block .Header_Block_ul {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 30px;
+    }
+
+    .Main_Block .Main_Block_Company .Main_Block_Company_img h1 {
+      font-size: 50px;
+    }
+
+    .Main_Block .Main_Block_Description {
+      padding: 20px;
+    }
+
+    .Projects_Block h2 {
+      padding-left: 20px;
+    }
+
+    .Projects_Block .Projects_Block_container .Projects_Block_image .image .desc h3 {
+      font-size: 16px;
+      line-height: 16px;
+    }
+
+    .Projects_Block .Projects_Block_container .Projects_Block_image .image .desc p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+
+    .Projects_Block .Projects_Block_container .Projects_Block_image .image .desc a {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 12px;
+    }
+
+    .Projects_Block .Projects_Block_container .Projects_Block_image .image {
+      margin: 2px;
+    }
+
+    .Technology_development_Block h2 {
+      padding-left: 20px;
+    }
+
+    .Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_details h3 {
+      font-size: 24px;
+      line-height: 24px;
+    }
+
+    .Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_details p {
+      font-size: 20px;
+      line-height: 20px;
+
+    }
+
+    .About_Invest_Block h2 {
+      padding-left: 20px;
+    }
+
+    .About_Invest_Block .About_Invest_Block_container p {
+      font-size: 20px;
+      line-height: 24px;
+      padding: 20px;
+    }
+
+    .Activities_Block h2 {
+      padding-left: 20px;
+    }
+
+    .Principles_Sustainability_Block h2 {
+      padding-left: 20px;
+    }
+
+    .Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element h4 {
+      font-size: 22px;
+    }
+
+    .Bottom_Block {
+      padding: 20px;
+    }
+
+    .Bottom_Block_name {
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    .Bottom_Block_details {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .Investment_page_Block .Investment_page_Block_wrapper .Investment_page_Block_container h2 {
+      font-size: 35px;
+      padding-left: 20px;
+    }
+
+    .Investment_page_Block .Investment_page_Block_wrapper .Investment_page_Block_container .Investment_page_Block_container_text span {
+      font-size: 14px;
+      line-height: 30px;
+      padding-right: 140px;
+
+    }
+
+
+    .Investment_sectors_page_Block h2 {
+      padding-left: 20px;
+    }
+
+    .Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image {
+      margin: 5px;
+    }
+
+    .Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .desc {
+      min-height: 60%;
+    }
+
+    .Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .desc h3 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .desc p {
+      font-size: 14px;
+      line-height: 26px;
+    }
+
+
+    .Chart_one_page_Block .Chart_one_page_Block_container .Chart_one_page_Block_container_text span {
+      font-size: 16px;
+      line-height: 30px;
+      padding: 80px;
+
+    }
+
+    .Sustainable_Investmet .Sustainable_Investmet_container .Sustainable_Investmet_text {
+      margin: 20px;
+      line-height: 10px;
+    }
+
+    .Chart_two_page_Block .Chart_two_page_Block_container .Chart_two_page_Block_container_text span {
+      font-size: 16px;
+      line-height: 30px;
+      padding: 80px;
+    }
+
+    .Sustainable_Investmet .Sustainable_Investmet_container .Sustainable_Investmet_text h3 {
+      color: #68092D;
+      font-size: 30px;
+    }
+
+    .Sustainable_Investmet .Sustainable_Investmet_container .Sustainable_Investmet_text span {
+      font-size: 16px;
+    }
+
+    .Implement_your_ideas .Implement_your_ideas_container .Implement_your_ideas_text h3 {
+      font-size: 30px;
+    }
+
+    .Implement_your_ideas .Implement_your_ideas_container .Implement_your_ideas_text span {
+      font-size: 16px;
+      line-height: 10px;
+    }
+
+    .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text {
+      left: 20%;
+    }
+
+    .Global_world_of_trade_Block .Global_world_of_trade_Block_container .Global_world_of_trade_Block_container_text span {
+      font-size: 18px;
+    }
+
+    .Chart_three_page_Block .Chart_three_page_Block_container .Chart_three_page_Block_container_text span {
+      font-size: 16px;
+      line-height: 30px;
+      padding: 80px;
+    }
+
+
+    .Products_Trading_page_Block_container_list .Block_container_list ul li {
+      font-size: 13px;
+    }
+
+    .Products_Trading_page_Block .Products_Trading_page_Block_wrapper .Products_Trading_page_Block_container .Products_Trading_page_Block_container_name {
+      padding-left: 20px;
+    }
+
+    .Products_Trading_page_Block .Products_Trading_page_Block_wrapper .Products_Trading_page_Block_container .Products_Trading_page_Block_container_name {
+      padding-left: 20px;
+    }
+
+    .Products_Trading_page_Block_container_list .Block_container_list.list_d,
+    .Products_Trading_page_Block_container_list .Block_container_list.list_e,
+    .Products_Trading_page_Block_container_list .Block_container_list.list_f {
+      margin: 10px;
+      display: block;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+    }
+
+
+    .Logistics_page_Block .Logistics_page_Block_container .Logistics_page_Block_container_text {
+      left: 0;
+    }
+
+    .Logistics_desc_page_Block_ .Logistics_desc_page_Block_container .Logistics_desc_page_Block_container_text span {
+      font-size: 16px;
+    }
+
+    .Organization_and_cargo_support h3 {
+
+      font-size: 30px;
+      padding-left: 20px;
+      text-align: center;
+
+    }
+
+    .Organization_and_cargo_support .Organization_and_cargo_support_container .Organization_and_cargo_support_text span {
+      font-size: 16px;
+      line-height: 16px;
+
+    }
+
+    .Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_list div ul li {
+      margin: 20px;
+    }
+
+    .Transport_for_delivery_page_Block h2 {
+      font-size: 30px;
+      padding-left: 20px;
+    }
+
+    .Transport_for_delivery_page_Block .Transport_for_delivery_page_Block_container .Transport_for_delivery_page_Block_container_sectors_image .image {
+      margin: 10px;
+    }
+
+
+    .Transport_Contact_us_page_Block .Transport_Contact_us_page_Block_container .Transport_Contact_us_page_Block_text h3 {
+      font-size: 30px;
+    }
+
+    .Chart_one_page_Block .Chart_one_page_Block_container .Chart_one_page_Block_container_text {
+      max-width: 851px;
+      top: 0;
+      left: 0;
+    }
+
+
+    @media (max-width: 850px) {
+
+      .wrapper {
+        display: block;
+        width: 700px;
+        margin: 0 auto;
+        line-height: 50px;
+      }
+
+      .Header_Block .Header_Block_ul {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 30px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .Header_Block .Header_Block_ul li {
+        margin-top: 35px;
+        display: block;
+        width: 30%;
+        text-align: center;
+      }
+
+
+      .Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_details p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .Chart_one_page_Block .Chart_one_page_Block_container .Chart_one_page_Block_container_text {
+        max-width: 700px;
+      }
+
+
+      .Chart_three_page_Block .Chart_three_page_Block_container .Chart_three_page_Block_container_text {
+        max-width: 700px;
+      }
+
+      .Chart_three_page_Block .Chart_three_page_Block_container .Chart_three_page_Block_container_text span {
+        padding: 30px;
+      }
+
+
+      @media (max-width: 700px) {
+        .wrapper {
+          display: block;
+          width: 500px;
+          margin: 0 auto;
+          line-height: 50px;
+        }
+
+        .Main_Block .Main_Block_Company {
+          display: flex;
+          min-height: 351px;
+          flex-direction: column;
+        }
+
+        .Main_Block .Main_Block_Company .Main_Block_Company_img {
+          width: 100%;
+        }
+
+        .Main_Block .Main_Block_Company .Main_Block_Company_text {
+          width: 100%;
+        }
+
+        .Main_Block_Description h2 {
+          text-align: center;
+        }
+
+        .Main_Block_Description p {
+          width: 100%;
+        }
+
+        .Projects_Block .Projects_Block_container .Projects_Block_image {
+          display: flex;
+          height: 100%;
+          justify-content: space-around;
+          width: 100%;
+          flex-direction: column;
+          margin-bottom: 20px;
+        }
+
+        .Technology_development_Block {
+          min-height: 780px;
+        }
+
+        .Technology_development_Block .Technology_development_Block_container .Block_container_description {
+          min-height: 355px;
+        }
+
+        .Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_img {
+          width: 50%;
+          min-height: 351px;
+          padding: 20px;
+        }
+
+        .Technology_development_Block .Technology_development_Block_container .Block_container_description {
+          min-height: 500px;
+        }
+
+        .Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_img {
+          width: 50%;
+          min-height: 351px;
+          padding: 20px;
+        }
+
+        .Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_details {
+          width: 50%;
+          min-height: 355px;
+          padding: 20px;
+        }
+
+        .About_Invest_Block {
+          background: #68092DCC;
+          min-height: 420px;
+        }
+
+        .About_Invest_Block .About_Invest_Block_container p {
+          font-size: 18px;
+          line-height: 18px;
+          padding: 20px;
+        }
+
+        .Activities_Block .Activities_Block_container .container_block .container_block_element p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        .Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element h4 {
+          font-size: 15px;
+        }
+
+
+        .Bottom_Block {
+          display: flex;
+          min-height: 400px;
+          margin-top: 10px;
+          flex-direction: column;
+        }
+
+
+        .Bottom_Block .Bottom_Block_Company {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          margin: 10px;
+        }
+
+        .Bottom_Block .Bottom_Block_Information {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          margin: 10px;
+        }
+
+        .Investment_page_Block {
+          background: #EDEDED;
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          min-height: 800px;
+        }
+
+        .Investment_page_Block .Investment_page_Block_wrapper {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .Investment_page_Block .Investment_page_Block_wrapper .Investment_page_Block_container {
+          height: 100%;
+          width: 100%;
+          display: block;
+        }
+
+        .Investment_page_Block .Investment_page_Block_wrapper .Investment_page_Block_container .Investment_page_Block_container_text span {
+          font-size: 24px;
+          line-height: 30px;
+          padding: 20px;
+        }
+
+        .Investment_sectors_page_Block {
+          background: #FFFFFF;
+          min-height: 2293px;
+        }
+
+
+        .Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          flex-direction: column;
+          margin: 20px;
+        }
+
+        .Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image {
+          display: flex;
+          flex-direction: column;
+          min-height: 629px;
+          width: 380px;
+          align-self: center;
+          transition-duration: 1s;
+          background: #EDEDED;
+        }
+
+        .Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .desc h3 {
+          font-size: 24px;
+          line-height: 24px;
+        }
+
+        .Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .desc p {
+          font-size: 20px;
+
+        }
+
+        .Chart_one_page_Block .Chart_one_page_Block_container .Chart_one_page_Block_container_text {
+          max-width: 500px;
+          top: 0;
+          left: 0;
+        }
+
+
+        .Chart_one_page_Block .Chart_one_page_Block_container .Chart_one_page_Block_container_text span {
+          font-size: 20px;
+          line-height: 30px;
+          padding: 20px 20px;
+        }
+
+        .Chart_two_page_Block .Chart_two_page_Block_container .Chart_two_page_Block_container_text {
+          background: #68092DCC;
+          max-width: 800px;
+          height: 100%;
+          display: block;
+        }
+
+        .Chart_two_page_Block .Chart_two_page_Block_container .Chart_two_page_Block_container_text span {
+          font-size: 20px;
+          line-height: 30px;
+          padding: 20px 20px;
+        }
+
+        .Implement_your_ideas .Implement_your_ideas_container .Implement_your_ideas_text span {
+          font-size: 24px;
+        }
+
+
+        .Global_world_of_trade_Block .Global_world_of_trade_Block_container .Global_world_of_trade_Block_container_text span {
+          font-size: 18px;
+          padding: 20px;
+          margin-bottom: 20px;
+        }
+
+        .Chart_three_page_Block .Chart_three_page_Block_container .Chart_three_page_Block_container_text span {
+          font-size: 18px;
+          line-height: 30px;
+          padding: 40px 20px;
+        }
+
+        .Products_Trading_page_Block_container_list .Block_container_list ul li {
+          font-size: 20px;
+          margin: 20px;
+        }
+
+
+        .Organization_and_cargo_support .Organization_and_cargo_support_container .Organization_and_cargo_support_text {
+          max-width: 684px;
+          padding-bottom: 40px;
+        }
+
+        .Organization_and_cargo_support .Organization_and_cargo_support_container .Organization_and_cargo_support_text span {
+          font-size: 20px;
+          line-height: 16px;
+        }
+
+        .Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_left .Service_map_page_Block_container_name {
+          padding: 15px 80px 0 20px;
+        }
+
+        .Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_list div ul li {
+          margin: 20px 0;
+          font-size: 22px;
+        }
+
+        /*hamburger-menu*/
+        .tibtus-close-menu {
+          display: none;
+          cursor: pointer;
+          transition-duration: 1.5s;
+        }
+
+        .tibtus-close-icon {
+          width: 20px;
+          height: 20px;
+          position: relative;
+        }
+
+        .tibtus-close-icon::before,
+        .tibtus-close-icon::after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 5px;
+          background-color: #FFFFFF;
+          top: 250%;
+          transition-duration: 1.5s;
+          /*transform: translateY(-50%);*/
+        }
+
+        .tibtus-close-icon::before {
+          transform: rotate(45deg);
+          transition-duration: 1.5s;
+        }
+
+        .tibtus-close-icon::after {
+          transform: rotate(-45deg);
+          transition-duration: 1.5s;
+        }
+
+
+        .tibtus-hamburger-menu {
+          display: block;
+          width: 30px;
+          height: 20px;
+          cursor: pointer;
+          transition-duration: 1.5s;
+        }
+
+        .tibtus-bar {
+          width: 100%;
+          height: 4px;
+          background-color: #ffffff;
+          margin: 6px 0;
+          position: relative;
+          top: 200%;
+          transition-duration: 1.5s;
+        }
+
+        .Header_Block .Header_Block_ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: none;
+          transition-duration: 1.5s;
+        }
+
+        .Header_Block .Header_Block_ul li {
+          margin: 10px 0;
+          transition-duration: 1.5s;
+        }
+
+        .tibtus-show-menu {
+          display: block !important;
+        }
+
+
+        .tibtus-hamburger-menu-modal {
+          position: absolute;
+          top: 120px;
+          left: 0;
+          width: 100%;
+          background: #68092DCC;
+          display: none;
+          z-index: 10000;
+          transition-duration: 1.5s;
+        }
+
+        .Header_Block_ul_modal {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          padding: 20px;
+          transition-duration: 1.5s;
+        }
+
+        .Header_Block_ul_modal li {
+          margin: 20px;
+          text-transform: uppercase;
+        }
+
+        .Header_Block {
+          justify-content: space-between;
+          transition-duration: 1.5s;
+        }
+
+        .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text {
+          background: #68092DCC;
+          width: 500px;
+          height: 500px;
+          border-radius: 50%;
+          position: relative;
+          top: 0;
+          left: 10%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text h3 {
+          font-size: 30px;
+          font-weight: 900;
+          text-align: center;
+          margin-top: 0;
+        }
+
+        .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text span {
+          color: #FFFFFF;
+          font-weight: 400;
+          padding: 0 60px;
+          display: block;
+          font-size: 20px;
+          line-height: 24px;
+          text-align: center;
+        }
+
+        .Chart_three_page_Block .Chart_three_page_Block_container .Chart_three_page_Block_container_text span {
+          font-size: 16px;
+          line-height: 24px;
+          padding: 40px 20px;
+        }
+
+
+        @media (max-width: 550px) {
+          .wrapper {
+            display: block;
+            width: 340px;
+            margin: 0 auto;
+            line-height: 50px;
+          }
+
+          .Main_Block .Main_Block_Company .Main_Block_Company_img p {
+            color: #FFFFFF;
+            font-size: 22px;
+            font-weight: 400;
+            text-align: center;
+          }
+
+          .Main_Block .Main_Block_Company .Main_Block_Company_text h2 {
+            color: #68092D;
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            align-self: center;
+            padding: 10px;
+          }
+
+          .Main_Block .Main_Block_Company .Main_Block_Company_text p {
+            color: #68092D;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 33px;
+            text-align: center;
+            align-self: center;
+            margin: 10px 50px 20px;
+          }
+
+          .tibtus-bar {
+            left: 50%;
+          }
+
+          .tibtus-close-icon::before, .tibtus-close-icon::after {
+            top: 300%;
+            left: 50%;
+          }
+
+          .Main_Block_Description h2 {
+            font-size: 28px;
+          }
+
+          .Main_Block_Description p {
+            font-size: 18px;
+          }
+
+          .Projects_Block .Projects_Block_container .Projects_Block_image .image .desc {
+            padding: 30px 33px;
+          }
+
+          .Projects_Block .Projects_Block_container .Projects_Block_image .image {
+            margin: 10px;
+          }
+
+          .Technology_development_Block {
+            min-height: 1100px;
+          }
+
+          .Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_details h3 {
+            font-size: 20px;
+            line-height: 24px;
+          }
+
+          .Technology_development_Block .Technology_development_Block_container .Block_container_description {
+            min-height: 800px;
+            display: flex;
+            flex-direction: column;
+          }
+
+          .Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_img {
+            width: 100%;
+            min-height: 351px;
+            padding: 20px;
+          }
+
+          .Technology_development_Block .Technology_development_Block_container .Block_container_description .Block_container_description_details {
+            width: 100%;
+            min-height: 355px;
+            padding: 20px;
+          }
+
+          .About_Invest_Block h2 {
+            font-size: 30px;
+          }
+
+          .About_Invest_Block .About_Invest_Block_container p {
+            font-size: 18px;
+            line-height: 24px;
+            padding: 20px;
+          }
+
+          .About_Invest_Block {
+            min-height: 550px;
+          }
+
+          .Activities_Block h2 {
+            font-size: 30px;
+            padding-left: 10px;
+            line-height: 30px;
+          }
+
+          .Activities_Block .Activities_Block_container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+          }
+
+          .Activities_Block .Activities_Block_container .container_block {
+            padding: 20px 30px;
+            cursor: pointer;
+            width: 100%;
+            text-decoration: none;
+            position: relative;
+          }
+
+          .Activities_Block .Activities_Block_container .Activities_Block_Line_button {
+            display: block;
+            border: 0px solid #5F5A5A;
+          }
+
+          .Activities_Block .Activities_Block_container .container_block_lines {
+            margin: 0;
+            padding: 20px 0;
+            border-bottom: 0 solid #5F5A5A;
+          }
+
+          .Activities_Block .Activities_Block_container .container_block .container_block_element {
+            width: 100%;
+            height: 100%;
+            transition-duration: 2.0s;
+            position: relative;
+            padding: 10px;
+            border: 2px solid #5F5A5A;
+            border-radius: 10px;
+          }
+
+          .Activities_Block .Activities_Block_container .container_block {
+            padding: 20px 0px;
+            cursor: pointer;
+            width: 100%;
+            text-decoration: none;
+            position: relative;
+          }
+
+          .Principles_Sustainability_Block h2 {
+            font-size: 30px;
+            line-height: 40px;
+          }
+
+          .Principles_Sustainability_Block .Principles_Sustainability_Block_container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+          }
+
+          .Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            min-height: 250px;
+            margin-top: 50px;
+          }
+
+          .Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element:nth-child(1), .Principles_Sustainability_Block .Principles_Sustainability_Block_container .Principles_Sustainability_element:nth-child(2) {
+            border-right: 0px solid #5F5A5A;
+            border-radius: 2px;
+          }
+
+          .Bottom_Block {
+            display: flex;
+            min-height: 800px;
+            margin-top: 10px;
+            flex-direction: column;
+          }
+
+          .Bottom_Block .Bottom_Block_Company {
+            margin-bottom: 50px;
+          }
+
+          .Bottom_Block .Bottom_Block_Company .Company_Solutions,
+          .Bottom_Block .Bottom_Block_Company .Company_Projects,
+          .Bottom_Block .Bottom_Block_Company .Company_Activities {
+            margin: 0 5px;
+          }
+
+          .Bottom_Block .Bottom_Block_Information .Information_address,
+          .Bottom_Block .Bottom_Block_Information .Information_Company_information {
+            margin: 0 5px;
+          }
+
+          .Investment_sectors_page_Block {
+            background: #FFFFFF;
+            min-height: 2150px;
+          }
+
+          .Investment_page_Block .Investment_page_Block_wrapper .Investment_page_Block_container h2 {
+            font-size: 30px;
+            padding-left: 20px;
+          }
+
+          .Investment_page_Block .Investment_page_Block_wrapper .Investment_page_Block_container .Investment_page_Block_container_text span {
+            font-size: 20px;
+            line-height: 30px;
+            padding: 20px;
+          }
+
+          .Investment_page_Block .Investment_page_Block_element_circle {
+            width: 140px;
+            height: 140px;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%) translateY(10%);
+          }
+
+          .Investment_page_Block .Investment_page_Block_element_circle span {
+            font-size: 12px;
+          }
+
+
+          .Investment_sectors_page_Block h2 {
+            color: #68092D;
+            font-size: 30px;
+            font-weight: 800;
+            line-height: 50px;
+            text-align: left;
+            text-transform: uppercase;
+            margin-top: 60px;
+          }
+
+          .Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image .desc h3 {
+            font-size: 18px;
+            line-height: 24px;
+          }
+
+
+          .Investment_sectors_page_Block .Investment_sectors_page_Block_container .Investment_sectors_image .image {
+            display: flex;
+            flex-direction: column;
+            min-height: 600px;
+            width: 300px;
+            align-self: center;
+            transition-duration: 1s;
+            background: #EDEDED;
+          }
+
+          .Chart_one_page_Block .Chart_one_page_Block_container .Chart_one_page_Block_container_text {
+            max-width: 340px;
+            top: 0;
+            left: 0;
+          }
+
+
+          .Chart_one_page_Block .Chart_one_page_Block_container .Chart_one_page_Block_container_text span {
+            font-size: 13px;
+            line-height: 30px;
+            padding: 20px 20px;
+          }
+
+          .Chart_two_page_Block .Chart_two_page_Block_container .Chart_two_page_Block_container_text span {
+            font-size: 13px;
+            line-height: 30px;
+            padding: 20px 20px;
+          }
+
+          .Chart_two_page_Block .Chart_two_page_Block_container .Chart_two_page_Block_container_text {
+            background: #68092DCC;
+            max-width: 340px;
+            height: 100%;
+            display: block;
+          }
+
+          .Sustainable_Investmet .Sustainable_Investmet_container {
+            border-bottom: 2px solid #5F5A5A;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+
+          .Implement_your_ideas .Implement_your_ideas_container .Implement_your_ideas_text span {
+            font-size: 16px;
+          }
+
+
+          .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text {
+            width: 300px;
+            height: 300px;
+            top: 100px;
+            left: 100px;
+          }
+
+          .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text h3 {
+            font-size: 20px;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 0;
+          }
+
+          .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text span {
+            color: #FFFFFF;
+            font-weight: 400;
+            padding: 0 60px;
+            display: block;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+          }
+
+          .Global_world_of_trade_Block .Global_world_of_trade_Block_container .Global_world_of_trade_Block_container_text span {
+            font-size: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 340px;
+          }
+
+          .Chart_three_page_Block .Chart_three_page_Block_container {
+            height: 500px;
+          }
+
+          .Chart_three_page_Block .Chart_three_page_Block_container .Chart_three_page_Block_container_text {
+            max-width: 340px;
+          }
+
+          .Chart_three_page_Block .Chart_three_page_Block_container .Chart_three_page_Block_container_text span {
+            font-size: 14px;
+            line-height: 30px;
+            padding: 20px;
+          }
+
+          .Products_Trading_page_Block .Products_Trading_page_Block_wrapper .Products_Trading_page_Block_container .Products_Trading_page_Block_container_list {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            width: 340px;
+          }
+
+          .Products_Trading_page_Block_container_list .Block_container_list ul li {
+            font-size: 14px;
+            margin: 10px;
+            width: 340px;
+          }
+
+          .Logistics_page_Block .Logistics_page_Block_container .Logistics_page_Block_container_text span {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 35px;
+            padding: 1px;
+          }
+
+          .Organization_and_cargo_support .Organization_and_cargo_support_container .Organization_and_cargo_support_text span {
+            font-size: 16px;
+            line-height: 16px;
+          }
+
+          .Service_map_page_Block .Service_map_page_Block_container {
+            display: block;
+            width: 340px;
+          }
+
+          .Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_left {
+            width: 100%;
+            display: block;
+            position: relative;
+            background: #FFFFFF;
+          }
+
+          .Service_map_page_Block h2 {
+            font-size: 30px;
+          }
+
+          .Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_right {
+            width: 100%;
+            display: block;
+            position: relative;
+            background: #FFFFFF;
+          }
+
+          .Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_list div ul li {
+            margin: 20px 0;
+            font-size: 14px;
+          }
+
+          .Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_right .Service_map_page_Block_container_list div ul {
+            padding: 20px;
+          }
+
+          .Service_map_page_Block .Service_map_page_Block_container .Service_map_page_Block_container_left .Service_map_page_Block_container_list div ul {
+            padding: 20px;
+          }
+
+
+          .Transport_for_delivery_page_Block {
+            max-height: 1200px;
+          }
+
+
+          .Transport_for_delivery_page_Block .Transport_for_delivery_page_Block_container .Transport_for_delivery_page_Block_container_sectors_image {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            flex-direction: column;
+          }
+
+          .Products_Trading_page_Block .Products_Trading_page_Block_wrapper .Products_Trading_page_Block_container .Products_Trading_page_Block_container_line {
+            border-bottom: 2px solid #5F5A5A;
+            margin: 20px 0 80px 0;
+          }
+
+
+        }
+      }
+    }
+  }
+
+}
