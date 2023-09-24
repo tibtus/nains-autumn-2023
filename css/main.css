@@ -1228,18 +1228,18 @@ a:hover {
   opacity: 1;
 }
 
-
 .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text {
   background: #68092DCC;
   width: 600px;
   height: 600px;
   border-radius: 50%;
   position: relative;
-  top: -10%;
-  left: 43%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%) translateY(0%);
 }
 
 .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text h3 {
@@ -2041,9 +2041,6 @@ a:hover {
       line-height: 10px;
     }
 
-    .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text {
-      left: 20%;
-    }
 
     .Global_world_of_trade_Block .Global_world_of_trade_Block_container .Global_world_of_trade_Block_container_text span {
       font-size: 18px;
@@ -2521,7 +2518,6 @@ a:hover {
           border-radius: 50%;
           position: relative;
           top: 0;
-          left: 10%;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -2842,10 +2838,9 @@ a:hover {
 
 
           .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text {
-            width: 300px;
-            height: 300px;
-            top: 100px;
-            left: 100px;
+            width: 400px;
+            height: 400px;
+            top: 40px;
           }
 
           .Commodity_Trading_page_Block .Commodity_Trading_page_Block_container .Commodity_Trading_page_Block_container_text h3 {
@@ -2963,6 +2958,19 @@ a:hover {
           .Products_Trading_page_Block .Products_Trading_page_Block_wrapper .Products_Trading_page_Block_container .Products_Trading_page_Block_container_line {
             border-bottom: 2px solid #5F5A5A;
             margin: 20px 0 80px 0;
+          }
+
+
+          .Logistics_desc_page_Block_ .Logistics_desc_page_Block_container {
+            width: 340px;
+            display: block;
+          }
+
+          .Investment_page_Block .Investment_page_Block_wrapper .Investment_page_Block_container {
+            height: 100%;
+            width: 100%;
+            display: block;
+            padding: 0px;
           }
 
 
