@@ -2282,6 +2282,40 @@ a:hover {
 }
 
 
+/*---------------------------------------------- Proven_Expertise_page_Block 29 ---------------------------------------------- */
+
+
+.Proven_Expertise_page_Block {
+  background: #FFFFFF;
+}
+
+.Proven_Expertise_page_Block .Proven_Expertise_page_Block_pages_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  border-bottom: 2px solid #5F5A5A;
+  min-height: 250px;
+}
+
+.Proven_Expertise_page_Block .Proven_Expertise_page_Block_pages_container .Proven_Expertise_page_Block_pages_text h3 {
+  color: #68092D;
+  text-align: left;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.Proven_Expertise_page_Block .Proven_Expertise_page_Block_pages_container .Proven_Expertise_page_Block_pages_text span {
+  color: #000000;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/*----------------------------------------------  30 ---------------------------------------------- */
+/*----------------------------------------------  31 ---------------------------------------------- */
+/*----------------------------------------------  32 ---------------------------------------------- */
 
 
 /*----------------------------------------------  google_translate_element  ---------------------------------------------- */
