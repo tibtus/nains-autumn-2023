@@ -2571,6 +2571,7 @@ a:hover {
   height: 277px;
   position: relative;
   background: url("../img/briefcase_svgrepo.com.png") center/cover;
+  cursor: pointer;
 }
 
 .Turnkey_solution_page_Block .Turnkey_solution_page_Block_pages_container .Turnkey_solution_page_Block_text .Turnkey_solution_Frame_wrapper .Turnkey_solution_Frame:hover {
