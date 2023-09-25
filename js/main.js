@@ -16,4 +16,28 @@ closeMenu.addEventListener('click', () => {
 });
 
 
+// Отримуємо посилання на елемент блока, на який можна натиснути
+const blockToClick = document.querySelector('.Turnkey_solution_Frame_wrapper');
+// Отримуємо посилання на контейнер презентації
+const presentationContainer = document.getElementById('presentation-container');
+
+
+console.log("TEST 1 blockToClick", blockToClick)
+console.log("TEST 2 presentationContainer", presentationContainer)
+
+// Додаємо обробник події "click" до блока
+blockToClick.addEventListener('click', function () {
+    // Відображаємо контейнер презентації
+    console.log("TEST CLICK")
+    presentationContainer.style.display = 'block';
+    // Додайте код для завантаження вашої презентації у цей контейнер, наприклад, використовуючи iframe
+    // presentationContainer.innerHTML = '<iframe src="URL_презентації"></iframe>';
+});
+// Додаємо обробник події "click" до контейнера презентації для закриття презентації
+presentationContainer.addEventListener('click', function () {
+    // Приховуємо контейнер презентації при кліку на нього
+    presentationContainer.style.display = 'none';
+});
+
+
 

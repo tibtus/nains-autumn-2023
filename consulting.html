@@ -298,9 +298,16 @@
 
 <!-- ----------------------------------------------  Turnkey_solution_page_Block 34 Frame  ----------------------------------------------  -->
 
+<div id="presentation-container">
+
+  <div class="Presentation-container_wrapper">
+    <iframe frameborder="0" src="/framepage.html"></iframe>
+  </div>
+</div>
+
 
 <!-- ----------------------------------------------  Footer_Block  ----------------------------------------------  -->
-<footer>
+<footer class="footer_white">
   <div class="wrapper">
     <div class="Bottom_Block">
 
@@ -403,6 +410,29 @@
   </div>
 
 </footer>
+
+
+<script>
+  const blockToClick = document.querySelector('.Turnkey_solution_Frame_wrapper');
+  const presentationContainer = document.getElementById('presentation-container');
+  const body = document.body;
+
+  console.log("TEST 1 blockToClick", blockToClick)
+  console.log("TEST 2 presentationContainer", presentationContainer)
+  // function openPresentationContainer(e) {
+  //     console.log("e",e)
+  // }
+  blockToClick.addEventListener('click', function () {
+    console.log("TEST CLICK")
+    presentationContainer.style.display = 'block';
+    body.classList.add('presentation-open');
+  });
+  presentationContainer.addEventListener('click', function () {
+    presentationContainer.style.display = 'none';
+    body.classList.remove('presentation-open');
+  });
+
+</script>
 
 
 <script src="js/main.js"></script>

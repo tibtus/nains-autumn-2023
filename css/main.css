@@ -209,6 +209,11 @@ footer {
   display: block;
   background: #EDEDED;
 }
+
+footer.footer_white {
+  display: block;
+  background: #ffffff;
+}
 a {
   text-decoration: none;
   color: #EDEDED;
@@ -2236,7 +2241,6 @@ a:hover {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 40px;
-  line-height: 50px;
   margin-top: 50px;
 }
 
@@ -2258,7 +2262,7 @@ a:hover {
   display: block;
   font-size: 36px;
   font-weight: 400;
-  line-height: 45px;
+  margin: 35px 0;
   text-align: left;
   color: #68092D;
   padding-right: 20px;
@@ -2297,6 +2301,10 @@ a:hover {
   min-height: 250px;
 }
 
+.Proven_Expertise_page_Block .Proven_Expertise_page_Block_pages_container .Proven_Expertise_page_Block_pages_text {
+  line-height: 30px;
+}
+
 .Proven_Expertise_page_Block .Proven_Expertise_page_Block_pages_container .Proven_Expertise_page_Block_pages_text h3 {
   color: #68092D;
   text-align: left;
@@ -2310,8 +2318,8 @@ a:hover {
   text-align: justify;
   font-size: 20px;
   font-weight: 400;
-  line-height: 30px;
 }
+
 
 /*---------------------------------------------- What_do_we_offer_page_Block 30 ---------------------------------------------- */
 
@@ -2561,9 +2569,10 @@ a:hover {
 }
 
 .Turnkey_solution_page_Block .Turnkey_solution_page_Block_pages_container .Turnkey_solution_page_Block_text .Turnkey_solution_Frame_wrapper {
-  width: 400px;
+  max-width: 400px;
   height: 400px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .Turnkey_solution_page_Block .Turnkey_solution_page_Block_pages_container .Turnkey_solution_page_Block_text .Turnkey_solution_Frame_wrapper .Turnkey_solution_Frame {
@@ -2598,6 +2607,35 @@ a:hover {
 
 
 /*----------------------------------------------  Turnkey_solution_page_Block 34 Frame ---------------------------------------------- */
+#presentation-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  z-index: 12000;
+}
+
+.Presentation-container_wrapper iframe {
+  display: block;
+  margin: 50px auto;
+  width: 1360px;
+  height: 1000px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+body.presentation-open {
+  overflow: hidden;
+}
+
+
+/*----------------------------------------------  Frame_page_Block 35  ---------------------------------------------- */
+
+
+
 
 
 
@@ -2659,6 +2697,26 @@ a:hover {
   .Projects_Partnered_projects_Block .Projects_Partnered_projects_Block_container .Projects_Partnered_projects_Block_container_up .block-a .img-1 {
     bottom: 170px;
   }
+
+  .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-a,
+  .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-b,
+  .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-c,
+  .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-d {
+    max-width: 580px;
+  }
+
+  .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .desc {
+    max-width: 580px;
+  }
+
+  .Digital_solutions_for_business_page_Block .Digital_solutions_for_business_page_Block_pages_container .Digital_solutions_for_business_page_Block_text {
+    line-height: 30px;
+  }
+
+  .Scoring_systems_page_Block .Scoring_systems_page_Block_pages_container .Scoring_systems_page_Block_text .desc {
+    padding: 0 20px;
+  }
+
 
 
   @media (max-width: 1173px) {
@@ -2981,6 +3039,18 @@ a:hover {
       left: 70px;
     }
 
+    .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks {
+      flex-direction: column;
+    }
+
+    .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box {
+      margin: 60px auto;
+    }
+
+    .Business_consulting_page_Block .Business_consulting_page_Block_wrapper .Business_consulting_page_Block_container h2 {
+      line-height: 40px;
+    }
+
 
     @media (max-width: 850px) {
 
@@ -3055,7 +3125,6 @@ a:hover {
 
         font-size: 20px;
       }
-
 
 
       @media (max-width: 700px) {
@@ -3491,6 +3560,38 @@ a:hover {
         .Projects_Partnered_projects_Block .Projects_Partnered_projects_Block_container .Projects_Partnered_projects_Block_container_down .block-d .img-4 {
           left: 0;
           bottom: 0;
+        }
+
+
+        .Business_consulting_page_Block .Business_consulting_page_Block_wrapper .Business_consulting_page_Block_container .Business_consulting_page_Block_container_text h4 {
+          line-height: 35px;
+        }
+
+        .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .desc {
+          max-width: 500px;
+          padding: 20px;
+          font-size: 18px;
+        }
+
+        .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-a, .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-b, .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-c, .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-d {
+          max-width: 500px;
+        }
+
+        .Scoring_systems_page_Block .Scoring_systems_page_Block_pages_container {
+          flex-direction: column;
+          margin: 0;
+        }
+
+        .Scoring_systems_page_Block .Scoring_systems_page_Block_pages_container .Scoring_systems_page_Block_text {
+          margin-bottom: 100px;
+        }
+
+        .Scoring_systems_page_Block .wrapper {
+          margin-top: 60px;
+        }
+
+        .Turnkey_solution_page_Block h3 {
+          text-align: center;
         }
 
 
@@ -3983,6 +4084,104 @@ a:hover {
             left: 0;
             bottom: 50px;
           }
+
+          .Business_consulting_page_Block .Business_consulting_page_Block_wrapper {
+            flex-direction: column;
+          }
+
+          .Business_consulting_page_Block .Business_consulting_page_Block_wrapper .Business_consulting_page_Block_container.img {
+            width: 100vw;
+            height: 100vw;
+          }
+
+          .Business_consulting_page_Block .Business_consulting_page_Block_wrapper .Business_consulting_page_Block_container h2 {
+            font-size: 30px;
+            margin-top: 30px;
+            text-align: center;
+          }
+
+          .Business_consulting_page_Block .Business_consulting_page_Block_wrapper .Business_consulting_page_Block_container .Business_consulting_page_Block_container_text h4 {
+            font-size: 28px;
+            margin: 35px 0;
+            text-align: center;
+            padding-right: 20px;
+          }
+
+          .Proven_Expertise_page_Block .Proven_Expertise_page_Block_pages_container .Proven_Expertise_page_Block_pages_text h3 {
+            color: #68092D;
+            font-size: 30px;
+            text-align: center;
+          }
+
+          .Proven_Expertise_page_Block .Proven_Expertise_page_Block_pages_container .Proven_Expertise_page_Block_pages_text span {
+            font-size: 18px;
+            padding-bottom: 20px;
+            display: block;
+          }
+
+          .What_do_we_offer_page_Block h2 {
+            text-align: center;
+            font-size: 30px;
+            line-height: 40px;
+          }
+
+          .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-a, .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-b, .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-c, .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-d {
+            max-width: 340px;
+          }
+
+          .What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .desc {
+            max-width: 340px;
+            padding: 10px;
+            font-size: 16px;
+            line-height: 24px;
+          }
+
+          .Digital_solutions_for_business_page_Block h3 {
+            font-size: 30px;
+            line-height: 40px;
+            text-align: center;
+          }
+
+          .Digital_solutions_for_business_page_Block .Digital_solutions_for_business_page_Block_pages_container .Digital_solutions_for_business_page_Block_text span {
+            font-size: 16px;
+            line-height: 27px;
+            display: block;
+            padding-bottom: 30px;
+          }
+
+          .Scoring_systems_page_Block .Scoring_systems_page_Block_pages_container .Scoring_systems_page_Block_text .name {
+            font-size: 30px;
+            line-height: 40px;
+            padding-bottom: 20px;
+          }
+
+          .Scoring_systems_page_Block .Scoring_systems_page_Block_pages_container .Scoring_systems_page_Block_text .desc {
+            font-size: 16px;
+          }
+
+          .Turnkey_solution_page_Block h3 {
+            font-size: 30px;
+          }
+
+          .Turnkey_solution_page_Block .Turnkey_solution_page_Block_pages_container .Turnkey_solution_page_Block_text h4 {
+            font-size: 30px;
+            line-height: 30px;
+            max-width: 340px;
+            margin: 30px auto;
+          }
+
+          .Turnkey_solution_page_Block .Turnkey_solution_page_Block_pages_container .Turnkey_solution_page_Block_text span {
+            color: #000000;
+            font-size: 16px;
+            max-width: 340px;
+          }
+
+          .Turnkey_solution_page_Block .Turnkey_solution_page_Block_pages_container .Turnkey_solution_page_Block_text .Turnkey_solution_Frame_wrapper {
+            transform: scale(0.8);
+            transform-origin: center;
+            margin: 0 auto;
+          }
+
 
 
 
