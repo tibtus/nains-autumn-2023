@@ -2313,10 +2313,153 @@ a:hover {
   line-height: 30px;
 }
 
-/*----------------------------------------------  30 ---------------------------------------------- */
-/*----------------------------------------------  31 ---------------------------------------------- */
-/*----------------------------------------------  32 ---------------------------------------------- */
+/*---------------------------------------------- What_do_we_offer_page_Block 30 ---------------------------------------------- */
 
+.What_do_we_offer_page_Block {
+  background: #FFFFFF;
+  min-height: 800px;
+}
+
+.What_do_we_offer_page_Block .wrapper {
+  border-bottom: 2px solid #5F5A5A;
+  margin-bottom: 0;
+}
+
+.What_do_we_offer_page_Block h2 {
+  color: #68092D;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  min-height: 400px;
+}
+
+.What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  min-height: 400px;
+  position: relative;
+  margin-bottom: 60px;
+  z-index: 2;
+}
+
+.What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .block {
+  width: 600px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+.What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-a {
+  width: 600px;
+  height: 200px;
+  display: block;
+  position: relative;
+  background: url("../img/group-diverse-people-having-business-meeting_2.png") center/cover;
+  z-index: 2;
+}
+
+.What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-b {
+  width: 600px;
+  height: 200px;
+  display: block;
+  position: relative;
+  background: url("../img/top-10-it-trends-2018_1.png") center/cover;
+}
+
+.What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-c {
+  width: 600px;
+  height: 200px;
+  display: block;
+  position: relative;
+  background: url("../img/businessmen-elegant-suits-business-meeting-discussing-new-project-office_1.png") center/cover;
+}
+
+.What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .img-d {
+  width: 600px;
+  height: 200px;
+  display: block;
+  position: relative;
+  background: url("../img/it-s-easier-than-you-think-success-is-your-hands_1.png") center/cover;
+}
+
+
+.What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box h4 {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: center;
+  padding-top: 20px;
+  display: block;
+
+}
+
+.What_do_we_offer_page_Block .What_do_we_offer_page_Block_pages_container .blocks .box .desc {
+  background: #68092DCC;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  padding: 30px;
+}
+
+
+/*----------------------------------------------  Digital_solutions_for_business_page_Block 31 ---------------------------------------------- */
+
+
+.Digital_solutions_for_business_page_Block {
+  background: #FFFFFF;
+}
+
+.Digital_solutions_for_business_page_Block .Digital_solutions_for_business_page_Block_pages_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 2px solid #5F5A5A;
+  min-height: 150px;
+}
+
+.Digital_solutions_for_business_page_Block h3 {
+  color: #68092D;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.Digital_solutions_for_business_page_Block .Digital_solutions_for_business_page_Block_pages_container .Digital_solutions_for_business_page_Block_text {
+  max-width: 739px;
+}
+
+
+.Digital_solutions_for_business_page_Block .Digital_solutions_for_business_page_Block_pages_container .Digital_solutions_for_business_page_Block_text span {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justify;
+}
+
+/*----------------------------------------------  32 ---------------------------------------------- */
+/*----------------------------------------------  33 ---------------------------------------------- */
 
 /*----------------------------------------------  google_translate_element  ---------------------------------------------- */
 #google_translate_element .skiptranslate.goog-te-gadget {
