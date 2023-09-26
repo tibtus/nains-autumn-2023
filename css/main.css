@@ -2870,6 +2870,10 @@ body.presentation-open {
     padding: 0 20px;
   }
 
+  .Presentation-container_wrapper iframe {
+    width: 1170px;
+  }
+
 
 
   @media (max-width: 1173px) {
@@ -3205,6 +3209,30 @@ body.presentation-open {
     }
 
 
+    .Presentation-container_wrapper iframe {
+      width: 850px;
+    }
+
+    .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body {
+      width: 850px;
+      height: 850px;
+    }
+
+    .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block {
+      width: 850px;
+    }
+
+    .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_Header {
+      transform: translateY(-100%) translateX(30%);
+    }
+
+    .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block-ol {
+      line-height: 20px;
+    }
+
+
+
+
     @media (max-width: 850px) {
 
       .wrapper {
@@ -3278,6 +3306,67 @@ body.presentation-open {
 
         font-size: 20px;
       }
+
+      .Presentation-container_wrapper iframe {
+        width: 650px;
+      }
+
+      .Frame_page_Block .Frame_page_Block_wrapper {
+        height: 650px;
+      }
+
+      .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body {
+        width: 650px;
+        height: 700px;
+      }
+
+      .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block {
+        width: 650px;
+        height: 600px;
+      }
+
+      .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_Header {
+        transform: translateY(-100%) translateX(8%);
+      }
+
+      .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_Header_name {
+        font-size: 30px;
+      }
+
+      .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body h2 {
+        font-size: 30px;
+        line-height: 20px;
+      }
+
+      .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block h5 {
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+      .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block span {
+        font-size: 15px;
+        line-height: 17px;
+      }
+
+      .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block {
+        height: 100px;
+      }
+
+
+      .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body h3 {
+        font-size: 30px;
+        line-height: 20px;
+      }
+
+      .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body h4 {
+        font-size: 30px;
+        line-height: 20px;
+      }
+
+      .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block-ol {
+        font-size: 16px;
+      }
+
 
 
       @media (max-width: 700px) {
@@ -3745,6 +3834,66 @@ body.presentation-open {
 
         .Turnkey_solution_page_Block h3 {
           text-align: center;
+        }
+
+        .Presentation-container_wrapper iframe {
+          width: 540px;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body {
+          width: 540px;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block {
+          width: 530px;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_Header {
+          border: 15px solid #68092D;
+          width: 300px;
+          height: 150px;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_Header {
+          transform: translateY(-100%) translateX(31%);
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block {
+          border: 25px solid #68092D;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_Header_name {
+          padding-top: 0;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body h2 {
+          line-height: 0;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body {
+          border: 8px solid #ffffff;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block h5 {
+          font-size: 20px;
+          line-height: 20px;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block {
+          height: 350px;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block {
+          padding: 0 10px;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body h3 {
+          line-height: 0;
+        }
+
+        .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body h4 {
+          font-size: 24px;
+          line-height: 10px;
         }
 
 
@@ -4336,6 +4485,83 @@ body.presentation-open {
           }
 
 
+          .Presentation-container_wrapper iframe {
+            width: 330px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body {
+            width: 340px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block {
+            width: 330px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block {
+            border: 15px solid #68092D;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_Header {
+            border: 10px solid #68092D;
+            width: 180px;
+            height: 100px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_Header_name {
+            font-size: 20px;
+            line-height: 24px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body h2 {
+            font-size: 20px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body {
+            border: 4px solid #ffffff;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block h5 {
+            font-size: 14px;
+            line-height: 14px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block span {
+            font-size: 11px;
+            line-height: 14px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block {
+            padding: 0 5px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block {
+            height: 300px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block {
+            height: 450px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body {
+            height: 488px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body h3 {
+            font-size: 18px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body h4 {
+            font-size: 16px;
+            line-height: 10px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_emply_h3 {
+            margin: 40px;
+          }
+
+          .Frame_page_Block .Frame_page_Block_wrapper .Frame_page_Block_pages_container .Frame_container_block_body .Frame_block .Frame_body .Frame_body_flex .block-ol {
+            font-size: 13px;
+          }
 
 
 
